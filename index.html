@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Foot Price</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="priceCalc">
+        <h1>Get Estimate!</h1>
+        <div class="priceCalcItems">
+            <img src="img/logo.png" alt="">
+            <div class="selectMaterial">
+                <h3>Select Material:</h3>
+                <select name="" id="select">
+                    <option value="vinyl">Vinyl</option>
+                    <option value="brick">Brick</option>
+                    <option value="concrete">Concrete</option>
+                    <option value="wood">Wood</option>
+                    <option value="roof">Roof</option>
+                </select>
+            </div>
+            <div class="inputSquareFt">
+                <label for="">Square Feet:</label>
+                <input type="number" placeholder="Square Feet">
+            </div>
+            <div class="estimatedPrice">
+                <h2>Estimated Price:</h2>
+                <h2 id="finalPrice">$0.00</h2>
+            </div>
+            <div class="calcBtn">
+                <button class="btn">Calculate</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
